@@ -45,6 +45,6 @@ public class MetricController {
 	@GetMapping("/getMetrics")
 	public List<Metric> getMetricCount() {
 		List<Metric> metricList = metricService.getMetrics();
-		return metricList;
+		return metricList; Edited some lines
 	}
 }
